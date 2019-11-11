@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto 1 Dania</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body style="background-color:darkgray">
+    <!-- AQUI EL CONTENIDO DEL SITIO -->
+
+    <!-- Inicio del menú móvil y desktop -->
+    <div class="navbar-fixed">
+      <nav style="background-color:#202527">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#" class="brand-logo">FotografíaArte</a>
+            <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#Home">Home </a></li>
+              <li><a href="#buscar">Buscar </a></li>
+              <li><a href="#galeria">Galeria </a></li>
+              <li><a href="#contacto">Contacto </a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <ul class="side-nav" id="mobile-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#buscar">Buscar</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <!-- $(".button-collapse").sideNav(); -->
+
+    <!-- Sección del slider -->
+    <section>
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="./img/MiProyecto/IMG_8901.jpg"> 
+            <div class="caption center-align">
+              <h3 style="color:#202527">Book de bebé</h3>
+              <a style="background:#202527"class="waves-effect waves-light btn white-text">Descubre más</a>
+            </div>
+          </li>
+          <li>
+            <img src="./img/MiProyecto/IMG_5443.jpg"> 
+            <div class="caption left-align">
+              <h3>Trabajamos para tí y lo disfrutes!</h3>
+            </div>
+          </li>
+          <li>
+            <img src="./img/MiProyecto/IMG_3875.1.jpg"> 
+            <div class="caption right-align">
+              <h3>Capta tu mejor momento en una fotografía</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- 
+        $('.slider').slider();
+      --> 
+    </section>
+<!-- Búsqueda lugares más populares -->
+    <section class="buscar teal black white-text center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h3>Busca Categoria</h3>
+            <div class="input-field">
+              <input class="white black-text autocomplete" placeholder="Foto estudio, exterior,interior">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section >
+<!-- Sección de los iconos -->
+    <section class="container">
+        <div class="row center">
+            <div class="col s12 m4">
+              <i class="material-icons large indigo-text">room</i>
+              <h4>Ubicacion</h4>
+              <p>Comalapa, Chontales,costado Norte al parque <br></p>
+            </div>
+            <div class="col s12 m4">
+              <i class="material-icons large orange-text">burst_mode</i>
+              <h4>Catalogo</h4>
+              <p>Hecha un vistazo a mi trabajo. <br></p>
+            </div>
+            <div class="col s12 m4">
+              <i class="material-icons large teal-text">call</i>
+              <h4>Contactame</h4>
+              <p>Numero Telefonico: 84449696,<br>Email: RenaldyMarin@hotmail.com </p>
+            </div>
+          </div>
+    </section>
+
+    <!-- Inicio de lugares populares -->
+    <section>
+      <div class="row">
+        <br>
+        <h4 class="center black-text ">Mis Mejores Tomas</h4>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="./img/MiProyecto/IMG_1629.jpg">
+              <span class="card-title">Laura Lucia Marín</span>
+            </div>
+            <div class="card-content">
+              <p>Foto estudio tomada en epoca navideña, tipo revista </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="./img/MiProyecto/IMG_2673.1.jpg">
+                <span class="card-title">Nelly Mejia Flores</span>
+              </div>
+              <div class="card-content">
+                <p>Foto tipo estudio, captando el lado sensual.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="./img/MiProyecto/IMG_3202133.1.jpg">
+                  <span class="card-title">Laura Lucia Marín</span>
+                </div>
+                <div class="card-content">
+                  <p>Foto tipo estudio, tematica rojo.</p>
+                </div>
+              </div>
+          </div>
+          <div class= "row">
+            <div class="col s12 center">
+              <a class="btn btn-large" style="background-color:#202527"><i class="material-icons left">send</i>Contacta para reservar</a>
+            </div>
+
+          </div>
+      </div>         
+    </section>
+
+    <section class="white-text center siguenos" style="background-color:#202527">
+      <div class="row">
+        <div>
+          <h4 >Siguenos en nuestras redes</h4>
+          <p>Conoce nuestros servicios y nuestras ofertas especiales</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="scrollspy">
+        <div class="container">
+            <h4 class="center black-text">Galeria de fotos</h4>
+            <div class="row">
+              <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="./img/MiProyecto/_MG_5760.jpg">
+              </div>
+              <div class="col s12 m3">
+                  <img class="materialboxed responsive-img" src="./img/MiProyecto/IMG_1904.jpg">
+              </div>
+              <div class="col s12 m3">
+                  <img class="materialboxed responsive-img" src="./img/MiProyecto/_MG_7184.jpg">
+              </div>
+              <div class="col s12 m3">
+                  <img class="materialboxed responsive-img" src="./img/MiProyecto/IMG_0723.jpg">
+              </div>
+              <div class="col s12 m3">
+                  <img class="materialboxed responsive-img" src="./img/MiProyecto/_MG_4747.jpg">
+              </div>
+              <div class="col s12 m3">
+                  <img class="materialboxed responsive-img" src="./img/MiProyecto/IMG_9929.jpg">
+              </div>
+              <div class="col s12 m3">
+                  <img class="materialboxed responsive-img" src="./img/MiProyecto/IMG_76831.jpg">
+              </div>
+              <div class="col s12 m3">
+                  <img class="materialboxed responsive-img" src="./img/MiProyecto/IMG_3384110.jpg">
+              </div>
+             
+            </div>
+          </div>
+    </section>
+    
+
+    <section>
+      <div class="container">
+        <h4 style="color:#202527" class="center">Contacto con nosotros</h4>
+        <div class="row">
+          <form>
+            <div class="input-field col s12 l6">
+              <input type="text" id="primer_nombre" class="validate">
+              <label for="primer_nombre"t class="black-text">Primer Nombre</label>
+            </div>
+            <div class="input-field col s12 l6">
+              <input type="text" id="segundo_nombre" class="validate">
+              <label for="segundo_nombre "class="black-text">Segundo Nombre</label>
+            </div>
+            <div class="input-field col s12">
+              <input type="email" id="email" class="validate" >
+              <label for="email" data-error="Correo Inválido" class="black-text" data-success="Correcto">Email</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea id="mensaje" class="materialize-textarea"></textarea>
+              <label for="mensaje"  class="black-text" >Mensaje</label>
+            </div>
+            <button style="background-color:#202527" class="btn waves-effect waves-light" type="submit" name="action">Enviar
+              <i class="material-icons right">send</i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    
+    <script>
+        $("document").ready(function () {
+          $(".button-collapse").sideNav();
+          $('.slider').slider({
+            indicators: false,
+            height:500
+          });
+        });
+    </script>
+</body>
+<footer style="background-color:#202527" class="page-footer valign-wrapper center ">
+  <div class="container">
+    <p class="flow-text white-text">&copy; 2019 Renaldy Marín</p>
+  </div>
+</footer>
+</html>
